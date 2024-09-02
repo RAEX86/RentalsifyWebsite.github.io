@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SECONDARY PAGE</title>
+        <style>
+            img {
+              border-radius: 8px;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/bf30858d3e.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+<body>
+
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="../index.html"><img src="logo.png" width="145px" height="45px"></a>
+      </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="#!"><span></span></a>
+        </div>
+        <ul class="nav-list">
+          <!-- Setting the links to #! will ensure that no action takes place on click. -->
+          <li><a href="../Login/index.html">Login In</a></li>
+          <li><a href="../Register/index.html">Sign Up</a></li>
+          <li><a href="#!">Services</a>
+            <ul class="nav-dropdown">
+              <li><a href="#!">Water Jars</a></li>
+              <li><a href="#!">Mess Services</a></li>
+              <li><a href="#!">Renting Services</a></li>
+            </ul>
+          </li>
+          <li><a href="#!">Pricing</a></li>
+          <li><a href="#!">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+
+
+      
+  <div class="heading1">Shree Om Chattrabas</div>
+  <div class="subheading1"> <p>Location: chas Road, Purulia, West Bengal</p></div> 
+      
+      
+<div class="div1">
+       <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="house-2.png" style="width:100%">
+      <div class="text">Living Room</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="house-1.png" style="width:100%">
+      <div class="text">Bathroom</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="house-3.png" style="width:100%">
+      <div class="text">HallWay</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext"> 4 / 4</div>
+        <img src="house-4.png" style="width:100%">
+        <div class="text">Terrace</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+       <!-- The dots/circles -->
+  <div class="dotcontainer">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+</div>
+
+<div class="div2">
+  <form action="reservation.php" method="post">
+   
+    <div class="elem-group inlined">
+      <label for="checkin-date">Rent-in Date</label>
+      <input type="date" id="checkin-date" name="checkin" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="checkout-date">Rent-out Date (Minimum 6 months)</label>
+      <input type="date" id="checkout-date" name="checkout" required>
+    </div>
+    <div class="elem-group">
+      <label for="room-selection">Select Room Preference</label>
+      <select id="room-selection" name="room_preference" required>
+          <option value="">Choose a Room from the List</option>
+          <option value="3_sharing">3 sharing</option>
+          <option value="2_sharing">2 sharing</option>
+          <option value="No_sharing">No sharing</option>
+      </select>
+    </div>
+    
+    <div class="elem-group">
+      <label for="message">Anything Else?</label>
+      <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+    </div>
+    <button type="submit" class="consult" >Consult & Book</button>
+    <button type="submit" class="noconsult" >Book without Consult</button>
+  </form>
+</div> 
+  
+<div class="small-details">
+         <p><i class="fas fa-user-alt"></i>1 guest &nbsp; &nbsp; <i class="fas fa-bed"></i>10 beds &nbsp; &nbsp; 
+            <i class="fas fa-toilet-paper"></i>3 bathroom</p>
+        <h4>Rs 3000/month</h4>
+</div>
+
+<hr style="width:82%;">
+
+<!--details of house-->
+<div class="div3">
+  <ul class="details-list">
+
+    <li><i class="fas fa-home"></i>What you will get
+        <span>Bed, 2 times food(lunch & dinner) </span>
+    </li>
+
+    <li><i class="fas fa-paint-brush"></i>Cleanliness & Hygiene
+        <span>This host has committed to Rentalsify's cleaning process.</span>
+    </li>
+
+    <li><i class="fas fa-map-marker-alt"></i>Location Significance                
+        <span>90% of recent guests gave the location a 5 star rating.</span>
+    </li>
+
+    <li><i class="fas fa-heart"></i>Property Rating 
+        <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+    </li>
+
+      <div class="row">
+          <div>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+      </div>
+  </ul>
+</div>
+
+<div class="div4">
+    <img src="3dgirl.png" height="300px" width="340px">
+</div>
+<hr style="width:82%;">
+<p class="info">Students will be allocated on the ground floor according to availability.<br>
+     You get a comfortable one bedroom room. The price quoted is for one student,at the<br>
+     guest slot please mark the number of studets to get the exact price for groups. </p>
+     
+<hr style="width:82%;">
+
+<div class="map">
+    <h3>Location on map</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117156.58455146193!2d86.11727670876505!3d23.41919130000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f42a30bcd2c57b%3A0x9982e31ff3bc1799!2sChas%20Road!5e0!3m2!1sen!2sin!4v1655692160537!5m2!1sen!2sin"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <b> chas Road,Purulia,West Bengal</b>
+    <p>It's like a home away from home.</p>
+</div>
+
+<hr style="width:82%;">  
+
+
+<div class="div5">
+<form>
+<div class="elem-group">
+  <label for="message"><i class="fa-solid fa-comment"></i>Your Review</label>
+  <textarea id="message" name="visitor_message" placeholder="Write your review here....." required></textarea>
+</div>
+<button type="submit" class="comment-btn" >Submit</button>
+</form>
+</div>
+
+
+
+
+
+<!--javascript for slide show-->
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+<!--JavaScript for Form-->
+  <script>
+                 var currentDateTime = new Date();
+var year = currentDateTime.getFullYear();
+var month = (currentDateTime.getMonth() + 1);
+var date = (currentDateTime.getDate() + 1);
+
+if(date < 10) {
+  date = '0' + date;
+}
+if(month < 10) {
+  month = '0' + month;
+}
+
+var dateTomorrow = year + "-" + month + "-" + date;
+var checkinElem = document.querySelector("#checkin-date");
+var checkoutElem = document.querySelector("#checkout-date");
+
+checkinElem.setAttribute("min", dateTomorrow);
+
+checkinElem.onchange = function () {
+    checkoutElem.setAttribute("min", this.value);
+}
+  </script>
+
+
+<!--javascript for navbar-->
+<script>
+(function($) { // Begin jQuery
+  $(function() { // DOM ready
+    // If a link has a dropdown, add sub menu toggle.
+    $('nav ul li a:not(:only-child)').click(function(e) {
+      $(this).siblings('.nav-dropdown').toggle();
+      // Close one dropdown when selecting another
+      $('.nav-dropdown').not($(this).siblings()).hide();
+      e.stopPropagation();
+    });
+    // Clicking away from dropdown will remove the dropdown class
+    $('html').click(function() {
+      $('.nav-dropdown').hide();
+    });
+    // Toggle open and close nav styles on click
+    $('#nav-toggle').click(function() {
+      $('nav ul').slideToggle();
+    });
+    // Hamburger to X toggle
+    $('#nav-toggle').on('click', function() {
+      this.classList.toggle('active');
+    });
+  }); // end DOM ready
+})(jQuery); // end jQuery
+</script>
+
+</body>
+
+
+</html>
