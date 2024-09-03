@@ -600,13 +600,13 @@ nav ul li ul li a {
     font-size: 14px;
     margin: 0 auto;
     margin-top: 10px;
-    margin-left: 0px;
+    margin-left: 8px;
     text-align: center;
   }
 
   /* Slideshow Adjustments */
   .slideshow-container {
-    min-width: 450px;
+    min-width: 350px;
     margin-left: 2px;
   }
 
@@ -645,13 +645,14 @@ nav ul li ul li a {
   .consult, .noconsult {
     width: 100%;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 80px;
   }
 
   /* House Details */
   .details-list {
     margin-left: 0;
     padding: 0 15px;
+     margin-top: 100px;
   }
 
   .details-list li {
@@ -686,12 +687,13 @@ nav ul li ul li a {
   
   /* Comments Section */
   .div5 {
-    margin: 0 auto;
+    margin: 5 auto;
     text-align: center;
   }
 
   .comment-btn {
-    width: 80%;
+    width: 20%;
+    top: 2240px;
     margin: 20px auto;
   }
 
