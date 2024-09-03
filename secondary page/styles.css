@@ -592,7 +592,8 @@ nav ul li ul li a {
   .heading1 {
     font-size: 24px;
     text-align: center;
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-left: 1px;
   }
 
   .subheading1 {
